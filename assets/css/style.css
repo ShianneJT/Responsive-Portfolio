@@ -39,7 +39,15 @@ h2 {
     padding: 20px 0px 0px 0px;    
 }
 
+a {
+    text-decoration: none;
+}
+
 a:link {
+    color: #555555;
+}
+
+a:visited {
     color: #555555;
 }
 
@@ -60,7 +68,7 @@ nav {
 .container {
     background-color: #fef2ec;   
     width: 960px;    
-    margin: auto;    
+    margin: auto;
 }
 
 .clearfix::after {
@@ -75,7 +83,8 @@ hr {
 
 #content {
     width: 960px;
-    padding: 0px 20px 20px 20px
+    padding: 0px 20px 20px 20px;
+    margin-bottom: 20px;
 }
 
 p {
@@ -110,3 +119,21 @@ input, textarea {
     width: 100%;
     margin: 5px 0px 15px 0px;    
 }
+
+/* Media queries */
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        position: static;
+    }
+}
+
+
+
