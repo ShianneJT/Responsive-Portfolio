@@ -176,6 +176,15 @@ input, textarea {
         display: block;
         float: none;
     }
+
+    .portfolio-item {
+        width: 250px;
+        margin: 0px;
+        padding: 0px;
+        float: left;
+        display: block;
+    }
+
 }
 
 
@@ -252,17 +261,10 @@ input, textarea {
     #content {
         width: 100%;
         display: block;
-
     }
 
     #bio-image {
-        width: 100%;
-        
+        width: 100%;        
         height: auto;
     }
-
-
-
-
-
 }
